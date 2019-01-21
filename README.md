@@ -19,7 +19,7 @@ code-review
 svn/git control
 
 code review 和 bug review 结果对比
-    - 用来评判 code review 和 自测 的质量
+  - 用来评判 code review 和 自测 的质量
 - --------------------------------------
 bug review
 - --------------------------------------
@@ -32,14 +32,17 @@ code reivew
 ci/cd
 - --------------------------------------
 unit test/e2e test
-    - jest
-    - chromedriver
+  - jest
+  - chromedriver
 - --------------------------------------
 svn/git control
-    - svn: hooks + logtemplate
-    - git: hooks(husky + commitizen)
+  - svn: hooks + logtemplate
+  - git: hooks(husky + commitizen)
+  - refs
+    - [template](https://jingyan.baidu.com/article/e5c39bf5ed822d39d6603378.html)
+    - [git-cz](https://github.com/commitizen/cz-cli)
 - --------------------------------------
 linter(code/log)
-    - eslint
-    - stylelint
+  - eslint
+  - stylelint
 - --------------------------------------
