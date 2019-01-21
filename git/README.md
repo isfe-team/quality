@@ -19,7 +19,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint",
-      "commit-message": "commitlint -E $HUSKY_GIT_PARAMS"
+      "commit-message": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "devDependencies": {
