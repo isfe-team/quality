@@ -45,4 +45,9 @@ svn/git control
 linter(code/log)
   - eslint
   - stylelint
+  - htmllint
+  - refs
+    - [eslint](https://eslint.org/)
+    - [stylelint](https://stylelint.io/)
+    - [htmllint](https://github.com/htmllint/htmllint)
 - --------------------------------------
