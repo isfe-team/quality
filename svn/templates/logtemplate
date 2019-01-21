@@ -1,0 +1,41 @@
+feat/fix/docs/style/refactor/perf/test/build/ci/chore/version(scope): short description here...
+
+detail here......
+
+> 注意作为 svn log_template 时，需要两个换行
+
+# NOTES
+
+## actions
+
+feat: A new feature
+fix: A bug fix
+docs: Documentation only changes
+style: Changes that do not affect the meaning of the code(white-space, formatting, missing semi-colons, etc)
+refactor: A code change that neither fixes a bug or adds a feature
+perf: A code change that improves performance
+test: Adding missing tests
+build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+chore: Other changes that don't modify src or test files
+revert: Reverts a previous commit
+version: Release a new version or a release candidate
+
+## examples
+
+feat(flowchart): add relinkable for node
+fix: fix typos
+docs(static test): improve docs
+style: format scripts
+refactor(diagram): use go instead of jsplumb
+perf: reduce re-render counts
+test(reduce): add `reduce` tests
+build: update build script
+ci: add page deploy
+chore: update favicon
+revert: revert incorrect commit
+version: 0.1.1
+
+## refs
+
+- [git-cz](https://github.com/commitizen/cz-cli)
